@@ -21,6 +21,10 @@
 
 - (void) outputContacts;
 
+- (void) outputIDContact: (NSInteger) ID;
+
+- (void) outputNameOrEmailContact: (NSString *) nameOrEmail;
+
 @end
 
 #endif /* ContactList_h */
